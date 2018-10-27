@@ -23,5 +23,6 @@ body {
     margin: auto;
     width: 90%;
     border: 3px;
+    border-style: solid;
     border-color: #696969;
 }
