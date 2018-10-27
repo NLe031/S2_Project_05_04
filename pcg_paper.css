@@ -13,3 +13,15 @@
    Supporting Files: 
 
 */
+/* Head and Body Styles */
+html {
+    background-color: bisque;
+}
+
+body {
+    background-color: white;
+    margin: auto;
+    width: 90%;
+    border: 3px;
+    border-color: #696969;
+}
