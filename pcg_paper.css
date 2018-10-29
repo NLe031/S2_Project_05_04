@@ -19,10 +19,63 @@ html {
 }
 
 body {
-    background-color: white;
+    background-color: lemonchiffon;
     margin: auto;
     width: 90%;
     border: 3px;
     border-style: solid;
     border-color: #696969;
 }
+/* Aside nav Styles */
+aside {
+    padding: 5px;
+    list-style-type: none;
+}
+aside nav a:link,
+aside nav a:visited {
+    text-decoration: none;
+    color: darksalmon;
+}
+aside nav a:active,
+aside nav a:hover {
+    text-decoration: underline;
+    color: sandybrown;
+}
+/* header nav Styles */
+header>nav {
+    display: table;
+    width: 100%;
+    padding: 0px;
+}
+
+header>nav>ul {
+    display: table-row;
+    list-style-type: none;
+}
+
+header>nav>ul>li {
+    display: table-cell;
+    text-align: center;
+}
+header nav a:link,
+header nav a:visited {
+    text-decoration: none;
+    color: grey;
+}
+header nav a:active,
+header nav a:hover {
+    text-decoration: underline;
+    color: sandybrown;
+}
+/* header */
+header>img {
+    width: 100%;
+}
+/* Article Styles */
+
+/* footer Styles */
+footer {
+    padding: 8px;
+    text-align: center;
+    color: rgba(21, 17, 17,.6);
+    margin: 1px;
