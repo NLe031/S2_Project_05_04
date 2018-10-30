@@ -14,6 +14,7 @@
 
 */
 /* Head and Body Styles */
+/* Designs how the page will look when rendered. */
 html {
     background-color: bisque;
 }
@@ -28,6 +29,7 @@ body {
 }
 
 /* Aside nav Styles */
+/* Puts the links to the left side of the page and colors the text. */
 aside {
     padding: 5px;
     list-style-type: none;
@@ -53,6 +55,7 @@ aside nav a:hover {
 }
 
 /* header nav Styles */
+/* Make the top nav horizontal and colors the text. */
 header>nav {
     display: table;
     width: 100%;
@@ -83,6 +86,7 @@ header nav a:hover {
 }
 
 /* header */
+/* Allows thr */
 header>img {
     width: 100%;
 }
@@ -93,6 +97,8 @@ article {
     margin: 10px;
     width: 85%;
 }
+
+article>h1>p>a {}
 
 /* Address Styles */
 address {
