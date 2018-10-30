@@ -86,27 +86,34 @@ header nav a:hover {
 }
 
 /* header */
-/* Allows thr */
+/* Allows the image to expand across the page */
 header>img {
     width: 100%;
 }
 
 /* Article Styles */
+/* Changes the font and pushes the text more left to create space on the right. */
 article {
     font-family: 'Times New Roman', Times, serif;
     margin: 10px;
     width: 85%;
 }
 
-article>h1>p>a {}
+article a:link,
+article a:visited {
+    color: rgb(115, 194, 41);
+    text-decoration: none;
+}
 
 /* Address Styles */
+/* Pushes the text over away from the edge. */
 address {
     margin: 10px;
     padding: 5px;
 }
 
 /* footer Styles */
+/* Creates a semi-transparent footer.*/
 footer {
     padding: 8px;
     text-align: center;
